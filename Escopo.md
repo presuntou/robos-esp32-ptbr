@@ -3,7 +3,10 @@
 OBS: Esse é o meu primeiro repositório, já acessei alguns mas nunca criei nada para compartilhar com a comunidade, então não sei muito bem como isso vai funcionar ou se alguém vai acabar me ajudando com minhas dificuldades ao longo do projeto,
 então aceito qualquer dica sobre como melhorar.
 
+
 ### Esse é o projeto de um robo com esteira lagarta e câmera + um controle remoto com multiplas funções, então vou dividir a minha explicação nos dois tópicos principais, ESTEIRA e CONTROLE
+![WhatsApp Image 2025-04-03 at 10 36 00](https://github.com/user-attachments/assets/65d48b74-4731-4760-ab8b-f664cf3b3c7d)
+
 
 ### Componentes que já tenho em mãos:
     ## ESTEIRA
@@ -30,6 +33,7 @@ então aceito qualquer dica sobre como melhorar.
       Dentre outros itens que aparecem na foto.
 
   ## Objetivo de cada tópico:
+![WhatsApp Image 2025-04-03 at 10 36 00 (1)](https://github.com/user-attachments/assets/7b7d7cb8-2eb1-4176-b3fe-7612c5714a18)
 
 ## Esteira
 -   Obetivo inicial é poder ser controlada pelo controle e conseguir movimentar a câmera pelo pantilt visualizando as imagens remotamente
@@ -39,8 +43,15 @@ Objetivos futuros é que a esteira possa receber upgrades e atualizações de c�
 - Controlar a esteira e qualquer outra esteira que seja criada posteriormente, poder conectar o controle no WIFI para baixar atualização e melhoria de codigos, tanto para o controle quanto para a esteira.
 No display TFT poder visualizar as imagens da câmera e também conseguir navegar em um menu de opções e funções.
 
+
 ## Código que criei para o controle:
 Esse código tem algum problema na questão da seleção do menu, ele funciona bem até a parte de abrir o menu, mas após abrir ele fica trocando a seleção sozinho sem parar. Não sei bem como resolver isso, não é nada de hardware, fiz alguns testes, mas infelizmente continuou o erro.
+
+
+![WhatsApp Image 2025-04-03 at 10 35 54 (1)](https://github.com/user-attachments/assets/ec7195f2-5557-4c27-acc4-20e04fe77ec6)
+![WhatsApp Image 2025-04-03 at 10 35 53](https://github.com/user-attachments/assets/ce62e4f6-5c99-4d84-9992-84966f0d1004)
+![WhatsApp Image 2025-04-03 at 10 35 54](https://github.com/user-attachments/assets/d7655433-7009-4c94-97f2-d34b2ecb7bce)
+
 #CODIGO para rodar no ARDUINO IDE - Modelo ESP do controle  ESP32-D0WD-V3:
 
       //Aurum Robotics, 04/2025
@@ -209,8 +220,23 @@ Esse código tem algum problema na questão da seleção do menu, ele funciona b
 
 ## A esteira não tive progresso com o código, basicamente não consigo fazer ela criar uma rede wifi com seus controles, muito menos conectar em uma rede wifi para eu controlar ele pelo WEB server como testes inicial.
 Modelo do ESP utilizado - ESP32 S3:
+![WhatsApp Image 2025-04-03 at 10 35 56](https://github.com/user-attachments/assets/ace1d3fe-4f0c-4506-bd92-5a83f608aac8)
+![WhatsApp Image 2025-04-03 at 10 35 27](https://github.com/user-attachments/assets/91c1c0dd-18a8-4ac1-8384-5b88d2ec6cf1)
+![WhatsApp Image 2025-04-03 at 10 35 57](https://github.com/user-attachments/assets/e2fd1251-8ec5-44f5-aa4e-0b6ac5a9274f)
+
 ## Código da esteira:
 
       SEM CÓDIGO OFICIAL AINDA, ACEITO SUGESTÕES
  
+
+O resto é umas fotos que minha namorada bateu nesses dias que estou estudando até tarde soobre como vou resolver os problemas que eu mesmo criei hahahah
+![WhatsApp Image 2025-04-03 at 10 36 08](https://github.com/user-attachments/assets/5e70cef2-bf5e-4ad5-b77d-38590471d8a0)
+![WhatsApp Image 2025-04-03 at 10 36 15](https://github.com/user-attachments/assets/57aa0a2b-3341-407b-9ee8-ae3902f951fe)
+
+
+
+Se quiser contribuir de alguma forma, ficarei feliz em debater sobre o projeto, caso queira um contato direto, criei um instagram apenas para focar nesse projeto com vocês.
+https://www.instagram.com/spirit.aurum/
+@spirit.aurum
+
  **Pull Request**!
